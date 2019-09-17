@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tb3x_autorace</name>
+  <version>1.2.1</version>
+  <description>
+    Modified of the AutoRace ROS packages for AutoRace with TurtleBot3 (meta package)
+  </description>
+  <license>Apache 2.0</license>
+  <author email="akkharaphong.e@bu.ac.th">Patrick</author>
+  <author>Akkharaphong EKSIRI</author>
+  <maintainer email="akkharaphong.e@bu.ac.th">Patrick</maintainer>
+  <maintainer email="akkharaphong.e@bu.ac.th">Patrick</maintainer>
+  <url type="website">http://wiki.ros.org/turtlebot3_autorace</url>
+  <url type="emanual">http://turtlebot3.robotis.com</url>
+  <url type="repository">https://github.com/aeksiri/tb3x_autorace</url>
+  <url type="bugtracker">https://github.com/aeksiri/tb3x_autorace/issues</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>tb3x_autorace_camera</exec_depend>
+  <exec_depend>tb3x_autorace_control</exec_depend>
+  <exec_depend>tb3x_autorace_core</exec_depend>
+  <exec_depend>tb3x_autorace_detect</exec_depend>
+  <export><metapackage/></export>
+</package>
