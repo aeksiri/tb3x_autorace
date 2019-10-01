@@ -2,6 +2,10 @@
 Changelog for package tb3x_autorace
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.1 (2019-09-20)
+------------------
+* add tb3x_autorace_camera
+
 1.2.1 (2019-09-17)
 ------------------
 * modified pkg name
