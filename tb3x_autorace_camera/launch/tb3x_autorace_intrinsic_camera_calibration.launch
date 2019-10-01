@@ -23,7 +23,7 @@
 
   <!-- run the following under calibration mode -->
   <!-- camera calibration uses raw image -->
-  <node if="$(eval calibration_mode == 'calibration')" pkg="camera_calibration" type="cameracalibrator.py" name="cameracalibrator" args="--size 8x6 --square 0.108 image:=/camera/image camera:=/camera" output="screen"/>
+  <node if="$(eval calibration_mode == 'calibration')" pkg="camera_calibration" type="cameracalibrator.py" name="cameracalibrator" args="--size 8x6 --square 0.024 image:=/camera/image_color camera:=/dev/video1 --no-service-check" output="screen"/>
 
   <!-- run the following under action mode -->
   <!-- image rectification -->

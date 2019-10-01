@@ -16,6 +16,8 @@
   <url type="bugtracker">https://github.com/aeksiri/tb3x_autorace/issues</url>
   <buildtool_depend>catkin</buildtool_depend>
   <depend>dynamic_reconfigure</depend>
+  <depend>uvc_camera</depend>
+  <depend>camera_calibration</depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>cv_bridge</exec_depend>
