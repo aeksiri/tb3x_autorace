@@ -51,11 +51,11 @@ class ControlLane():
         Ki = 0.0001
         Kd = 0.007
 
-        angular_z = (Kp * error) + (Ki * ( (error + self.lastError)*0.1) )  + (Kd * (error - self.lastError))
+        angular_z = (Kp * error) + (Ki * (error + self.lastError) )  + (Kd * (error - self.lastError))
         # angular_z = (Kp * error) + (Kd * (error - self.lastError))
         self.lastError = error
 
-        self.error_sum += error*0.1
+        self.error_sum += error
         
         if(self.error_sum > 4000):
             self.error_sum = 4000
